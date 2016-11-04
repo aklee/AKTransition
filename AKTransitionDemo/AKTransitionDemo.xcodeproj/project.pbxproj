@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661E0A4B1DCCC2A40097E061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A4A1DCCC2A40097E061 /* main.m */; };
+		661E0A4E1DCCC2A40097E061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A4D1DCCC2A40097E061 /* AppDelegate.m */; };
+		661E0A511DCCC2A40097E061 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A501DCCC2A40097E061 /* ViewController.m */; };
+		661E0A561DCCC2A40097E061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661E0A551DCCC2A40097E061 /* Assets.xcassets */; };
+		661E0A591DCCC2A50097E061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661E0A571DCCC2A50097E061 /* LaunchScreen.storyboard */; };
+		661E0A821DCCC2AE0097E061 /* AKTransitionNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A631DCCC2AE0097E061 /* AKTransitionNavController.m */; };
+		661E0A831DCCC2AE0097E061 /* AKTransModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A651DCCC2AE0097E061 /* AKTransModel.m */; };
+		661E0A841DCCC2AE0097E061 /* AKAnimateDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A681DCCC2AE0097E061 /* AKAnimateDown.m */; };
+		661E0A851DCCC2AE0097E061 /* AKAnimateExplode.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A6A1DCCC2AE0097E061 /* AKAnimateExplode.m */; };
+		661E0A861DCCC2AE0097E061 /* AKAnimateFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A6C1DCCC2AE0097E061 /* AKAnimateFade.m */; };
+		661E0A871DCCC2AE0097E061 /* AKAnimateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A6E1DCCC2AE0097E061 /* AKAnimateTransition.m */; };
+		661E0A881DCCC2AE0097E061 /* AKAnimateUper.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A701DCCC2AE0097E061 /* AKAnimateUper.m */; };
+		661E0A891DCCC2AE0097E061 /* AKDragDownInteractive.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A731DCCC2AE0097E061 /* AKDragDownInteractive.m */; };
+		661E0A8A1DCCC2AE0097E061 /* AKDragUpInteractive.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A751DCCC2AE0097E061 /* AKDragUpInteractive.m */; };
+		661E0A8B1DCCC2AE0097E061 /* AKInteractive.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A771DCCC2AE0097E061 /* AKInteractive.m */; };
+		661E0A8C1DCCC2AE0097E061 /* ObjcRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A791DCCC2AE0097E061 /* ObjcRuntime.m */; };
+		661E0A8D1DCCC2AE0097E061 /* TransVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A7C1DCCC2AE0097E061 /* TransVC1.m */; };
+		661E0A8F1DCCC2AE0097E061 /* TransVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A7F1DCCC2AE0097E061 /* TransVC2.m */; };
+		661E0A901DCCC2AE0097E061 /* TransVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A811DCCC2AE0097E061 /* TransVC3.m */; };
+		661E0A931DCCC2C10097E061 /* UIView+AK.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E0A921DCCC2C10097E061 /* UIView+AK.m */; };
+		661E0A961DCCC3B10097E061 /* TransVC1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661E0A951DCCC3B10097E061 /* TransVC1.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		661E0A461DCCC2A40097E061 /* AKTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		661E0A4A1DCCC2A40097E061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		661E0A4C1DCCC2A40097E061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		661E0A4D1DCCC2A40097E061 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		661E0A4F1DCCC2A40097E061 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		661E0A501DCCC2A40097E061 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		661E0A551DCCC2A40097E061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		661E0A581DCCC2A50097E061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		661E0A5A1DCCC2A50097E061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661E0A621DCCC2AE0097E061 /* AKTransitionNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTransitionNavController.h; sourceTree = "<group>"; };
+		661E0A631DCCC2AE0097E061 /* AKTransitionNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTransitionNavController.m; sourceTree = "<group>"; };
+		661E0A641DCCC2AE0097E061 /* AKTransModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTransModel.h; sourceTree = "<group>"; };
+		661E0A651DCCC2AE0097E061 /* AKTransModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTransModel.m; sourceTree = "<group>"; };
+		661E0A671DCCC2AE0097E061 /* AKAnimateDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAnimateDown.h; sourceTree = "<group>"; };
+		661E0A681DCCC2AE0097E061 /* AKAnimateDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAnimateDown.m; sourceTree = "<group>"; };
+		661E0A691DCCC2AE0097E061 /* AKAnimateExplode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAnimateExplode.h; sourceTree = "<group>"; };
+		661E0A6A1DCCC2AE0097E061 /* AKAnimateExplode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAnimateExplode.m; sourceTree = "<group>"; };
+		661E0A6B1DCCC2AE0097E061 /* AKAnimateFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAnimateFade.h; sourceTree = "<group>"; };
+		661E0A6C1DCCC2AE0097E061 /* AKAnimateFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAnimateFade.m; sourceTree = "<group>"; };
+		661E0A6D1DCCC2AE0097E061 /* AKAnimateTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAnimateTransition.h; sourceTree = "<group>"; };
+		661E0A6E1DCCC2AE0097E061 /* AKAnimateTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAnimateTransition.m; sourceTree = "<group>"; };
+		661E0A6F1DCCC2AE0097E061 /* AKAnimateUper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAnimateUper.h; sourceTree = "<group>"; };
+		661E0A701DCCC2AE0097E061 /* AKAnimateUper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAnimateUper.m; sourceTree = "<group>"; };
+		661E0A721DCCC2AE0097E061 /* AKDragDownInteractive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKDragDownInteractive.h; sourceTree = "<group>"; };
+		661E0A731DCCC2AE0097E061 /* AKDragDownInteractive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKDragDownInteractive.m; sourceTree = "<group>"; };
+		661E0A741DCCC2AE0097E061 /* AKDragUpInteractive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKDragUpInteractive.h; sourceTree = "<group>"; };
+		661E0A751DCCC2AE0097E061 /* AKDragUpInteractive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKDragUpInteractive.m; sourceTree = "<group>"; };
+		661E0A761DCCC2AE0097E061 /* AKInteractive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKInteractive.h; sourceTree = "<group>"; };
+		661E0A771DCCC2AE0097E061 /* AKInteractive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKInteractive.m; sourceTree = "<group>"; };
+		661E0A781DCCC2AE0097E061 /* ObjcRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcRuntime.h; sourceTree = "<group>"; };
+		661E0A791DCCC2AE0097E061 /* ObjcRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcRuntime.m; sourceTree = "<group>"; };
+		661E0A7B1DCCC2AE0097E061 /* TransVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransVC1.h; sourceTree = "<group>"; };
+		661E0A7C1DCCC2AE0097E061 /* TransVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransVC1.m; sourceTree = "<group>"; };
+		661E0A7E1DCCC2AE0097E061 /* TransVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransVC2.h; sourceTree = "<group>"; };
+		661E0A7F1DCCC2AE0097E061 /* TransVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransVC2.m; sourceTree = "<group>"; };
+		661E0A801DCCC2AE0097E061 /* TransVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransVC3.h; sourceTree = "<group>"; };
+		661E0A811DCCC2AE0097E061 /* TransVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransVC3.m; sourceTree = "<group>"; };
+		661E0A911DCCC2C10097E061 /* UIView+AK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AK.h"; sourceTree = "<group>"; };
+		661E0A921DCCC2C10097E061 /* UIView+AK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AK.m"; sourceTree = "<group>"; };
+		661E0A941DCCC2E00097E061 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		661E0A951DCCC3B10097E061 /* TransVC1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransVC1.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661E0A431DCCC2A40097E061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		661E0A3D1DCCC2A40097E061 = {
+			isa = PBXGroup;
+			children = (
+				661E0A481DCCC2A40097E061 /* AKTransitionDemo */,
+				661E0A471DCCC2A40097E061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		661E0A471DCCC2A40097E061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661E0A461DCCC2A40097E061 /* AKTransitionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661E0A481DCCC2A40097E061 /* AKTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				661E0A601DCCC2AE0097E061 /* Transition */,
+				661E0A4C1DCCC2A40097E061 /* AppDelegate.h */,
+				661E0A4D1DCCC2A40097E061 /* AppDelegate.m */,
+				661E0A4F1DCCC2A40097E061 /* ViewController.h */,
+				661E0A501DCCC2A40097E061 /* ViewController.m */,
+				661E0A551DCCC2A40097E061 /* Assets.xcassets */,
+				661E0A571DCCC2A50097E061 /* LaunchScreen.storyboard */,
+				661E0A5A1DCCC2A50097E061 /* Info.plist */,
+				661E0A491DCCC2A40097E061 /* Supporting Files */,
+				661E0A941DCCC2E00097E061 /* PrefixHeader.pch */,
+			);
+			path = AKTransitionDemo;
+			sourceTree = "<group>";
+		};
+		661E0A491DCCC2A40097E061 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				661E0A4A1DCCC2A40097E061 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		661E0A601DCCC2AE0097E061 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				661E0A611DCCC2AE0097E061 /* AKTrans */,
+				661E0A7A1DCCC2AE0097E061 /* DEMO */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		661E0A611DCCC2AE0097E061 /* AKTrans */ = {
+			isa = PBXGroup;
+			children = (
+				661E0A911DCCC2C10097E061 /* UIView+AK.h */,
+				661E0A921DCCC2C10097E061 /* UIView+AK.m */,
+				661E0A621DCCC2AE0097E061 /* AKTransitionNavController.h */,
+				661E0A631DCCC2AE0097E061 /* AKTransitionNavController.m */,
+				661E0A641DCCC2AE0097E061 /* AKTransModel.h */,
+				661E0A651DCCC2AE0097E061 /* AKTransModel.m */,
+				661E0A661DCCC2AE0097E061 /* Animate */,
+				661E0A711DCCC2AE0097E061 /* Interactive */,
+				661E0A781DCCC2AE0097E061 /* ObjcRuntime.h */,
+				661E0A791DCCC2AE0097E061 /* ObjcRuntime.m */,
+			);
+			path = AKTrans;
+			sourceTree = "<group>";
+		};
+		661E0A661DCCC2AE0097E061 /* Animate */ = {
+			isa = PBXGroup;
+			children = (
+				661E0A671DCCC2AE0097E061 /* AKAnimateDown.h */,
+				661E0A681DCCC2AE0097E061 /* AKAnimateDown.m */,
+				661E0A691DCCC2AE0097E061 /* AKAnimateExplode.h */,
+				661E0A6A1DCCC2AE0097E061 /* AKAnimateExplode.m */,
+				661E0A6B1DCCC2AE0097E061 /* AKAnimateFade.h */,
+				661E0A6C1DCCC2AE0097E061 /* AKAnimateFade.m */,
+				661E0A6D1DCCC2AE0097E061 /* AKAnimateTransition.h */,
+				661E0A6E1DCCC2AE0097E061 /* AKAnimateTransition.m */,
+				661E0A6F1DCCC2AE0097E061 /* AKAnimateUper.h */,
+				661E0A701DCCC2AE0097E061 /* AKAnimateUper.m */,
+			);
+			path = Animate;
+			sourceTree = "<group>";
+		};
+		661E0A711DCCC2AE0097E061 /* Interactive */ = {
+			isa = PBXGroup;
+			children = (
+				661E0A721DCCC2AE0097E061 /* AKDragDownInteractive.h */,
+				661E0A731DCCC2AE0097E061 /* AKDragDownInteractive.m */,
+				661E0A741DCCC2AE0097E061 /* AKDragUpInteractive.h */,
+				661E0A751DCCC2AE0097E061 /* AKDragUpInteractive.m */,
+				661E0A761DCCC2AE0097E061 /* AKInteractive.h */,
+				661E0A771DCCC2AE0097E061 /* AKInteractive.m */,
+			);
+			path = Interactive;
+			sourceTree = "<group>";
+		};
+		661E0A7A1DCCC2AE0097E061 /* DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				661E0A7B1DCCC2AE0097E061 /* TransVC1.h */,
+				661E0A7C1DCCC2AE0097E061 /* TransVC1.m */,
+				661E0A951DCCC3B10097E061 /* TransVC1.xib */,
+				661E0A7E1DCCC2AE0097E061 /* TransVC2.h */,
+				661E0A7F1DCCC2AE0097E061 /* TransVC2.m */,
+				661E0A801DCCC2AE0097E061 /* TransVC3.h */,
+				661E0A811DCCC2AE0097E061 /* TransVC3.m */,
+			);
+			path = DEMO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661E0A451DCCC2A40097E061 /* AKTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661E0A5D1DCCC2A50097E061 /* Build configuration list for PBXNativeTarget "AKTransitionDemo" */;
+			buildPhases = (
+				661E0A421DCCC2A40097E061 /* Sources */,
+				661E0A431DCCC2A40097E061 /* Frameworks */,
+				661E0A441DCCC2A40097E061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKTransitionDemo;
+			productName = AKTransitionDemo;
+			productReference = 661E0A461DCCC2A40097E061 /* AKTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		661E0A3E1DCCC2A40097E061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ak;
+				TargetAttributes = {
+					661E0A451DCCC2A40097E061 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = R7MA6WCN8V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 661E0A411DCCC2A40097E061 /* Build configuration list for PBXProject "AKTransitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 661E0A3D1DCCC2A40097E061;
+			productRefGroup = 661E0A471DCCC2A40097E061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661E0A451DCCC2A40097E061 /* AKTransitionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661E0A441DCCC2A40097E061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661E0A591DCCC2A50097E061 /* LaunchScreen.storyboard in Resources */,
+				661E0A961DCCC3B10097E061 /* TransVC1.xib in Resources */,
+				661E0A561DCCC2A40097E061 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661E0A421DCCC2A40097E061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661E0A511DCCC2A40097E061 /* ViewController.m in Sources */,
+				661E0A8A1DCCC2AE0097E061 /* AKDragUpInteractive.m in Sources */,
+				661E0A891DCCC2AE0097E061 /* AKDragDownInteractive.m in Sources */,
+				661E0A881DCCC2AE0097E061 /* AKAnimateUper.m in Sources */,
+				661E0A931DCCC2C10097E061 /* UIView+AK.m in Sources */,
+				661E0A4E1DCCC2A40097E061 /* AppDelegate.m in Sources */,
+				661E0A901DCCC2AE0097E061 /* TransVC3.m in Sources */,
+				661E0A8D1DCCC2AE0097E061 /* TransVC1.m in Sources */,
+				661E0A821DCCC2AE0097E061 /* AKTransitionNavController.m in Sources */,
+				661E0A8C1DCCC2AE0097E061 /* ObjcRuntime.m in Sources */,
+				661E0A8F1DCCC2AE0097E061 /* TransVC2.m in Sources */,
+				661E0A831DCCC2AE0097E061 /* AKTransModel.m in Sources */,
+				661E0A8B1DCCC2AE0097E061 /* AKInteractive.m in Sources */,
+				661E0A871DCCC2AE0097E061 /* AKAnimateTransition.m in Sources */,
+				661E0A4B1DCCC2A40097E061 /* main.m in Sources */,
+				661E0A861DCCC2AE0097E061 /* AKAnimateFade.m in Sources */,
+				661E0A841DCCC2AE0097E061 /* AKAnimateDown.m in Sources */,
+				661E0A851DCCC2AE0097E061 /* AKAnimateExplode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		661E0A571DCCC2A50097E061 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661E0A581DCCC2A50097E061 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		661E0A5B1DCCC2A50097E061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		661E0A5C1DCCC2A50097E061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		661E0A5E1DCCC2A50097E061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R7MA6WCN8V;
+				GCC_PREFIX_HEADER = AKTransitionDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = AKTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aklee.www.AKTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		661E0A5F1DCCC2A50097E061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R7MA6WCN8V;
+				GCC_PREFIX_HEADER = AKTransitionDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = AKTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aklee.www.AKTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		661E0A411DCCC2A40097E061 /* Build configuration list for PBXProject "AKTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661E0A5B1DCCC2A50097E061 /* Debug */,
+				661E0A5C1DCCC2A50097E061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661E0A5D1DCCC2A50097E061 /* Build configuration list for PBXNativeTarget "AKTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661E0A5E1DCCC2A50097E061 /* Debug */,
+				661E0A5F1DCCC2A50097E061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 661E0A3E1DCCC2A40097E061 /* Project object */;
+}
