@@ -13,4 +13,4 @@ AKAnimateTransition 动画过渡模块（可扩展）
  
 <br /><br />
 ####.效果图片<br />
-![image](./AKTransitionDEMO.gif)<br /><br />
+![image](./AKTransitionDemo.gif)<br /><br />
